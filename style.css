@@ -1,0 +1,54 @@
+body {
+  background-image: repeating-radial-gradient(red 10%, blue 40%, purple 30%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+td {
+  border: solid 1 px blue;
+  padding: 2px;
+}
+th {
+  background-color: silver;
+}
+td:first-child {
+  background-color: rgb(163, 163, 218);
+  font-weight: bolder;
+}
+.wrd1:hover ~ .def1 {
+  color: red;
+  font-size: 125%;
+}
+
+.wrd2:hover ~ .def2 {
+  color: green;
+  font-size: 125%;
+}
+
+.wrd3:hover ~ .def3 {
+  color: brown;
+  font-size: 125%;
+}
+
+.wrd4:hover ~ .def4 {
+  color: orange;
+  font-size: 125%;
+}
+
+.wrd5:hover ~ .def5 {
+  color: pink;
+  font-size: 125%;
+}
+
+.wrd6:hover ~ .def6 {
+  color: white;
+  font-size: 125%;
+}
+
+.wrd7:hover ~ .def7 {
+  color: purple;
+  font-size: 125%;
+}
+
+.text {
+  text-align: center;
+}
